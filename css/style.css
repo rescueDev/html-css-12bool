@@ -11,7 +11,7 @@
   min-height: 200px;
   background-color: pink;
   border: solid 1px  #000;
-  text-align: center;
+  position: relative;
 }
 
 /* padding */
@@ -23,5 +23,40 @@
  .col-6 .row .col-8,
  .col-6 .row .col-6 {
    border:2px solid white;
-   background-color: brown;
+   background-color: #f07f80;
+ }
+
+.row .col-1,
+.row .col-2,
+.row .col-6,
+.row .col-8,
+.row .col-12 {
+   position: relative;
+ }
+
+ .row .col-2 {
+   position: relative;
+ }
+
+ .row .col-6 {
+   position: relative;
+ }
+
+ .row .col-8 {
+   position: relative;
+ }
+
+ .row .col-12 {
+   position: relative;
+ }
+
+ .col-1 p,
+ .col-2 p,
+ .col-6 p,
+ .col-8 p,
+ .col-12 p {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50% ,-50%);
  }
