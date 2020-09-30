@@ -1,0 +1,16 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 200px;
+  background-color: pink;
+  border: solid 1px  #000;
+}
